@@ -13,6 +13,8 @@
 		91E55C151B27E580001868A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91E55C141B27E580001868A9 /* Images.xcassets */; };
 		91E55C181B27E580001868A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91E55C161B27E580001868A9 /* LaunchScreen.xib */; };
 		91E55C241B27E580001868A9 /* PostCard4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E55C231B27E580001868A9 /* PostCard4Tests.swift */; };
+		91E55C2E1B27E6D5001868A9 /* emeraldbay.png in Resources */ = {isa = PBXBuildFile; fileRef = 91E55C2D1B27E6D5001868A9 /* emeraldbay.png */; };
+		91E55C301B27E821001868A9 /* IMG_8091.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 91E55C2F1B27E821001868A9 /* IMG_8091.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		91E55C1D1B27E580001868A9 /* PostCard4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostCard4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91E55C221B27E580001868A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91E55C231B27E580001868A9 /* PostCard4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCard4Tests.swift; sourceTree = "<group>"; };
+		91E55C2D1B27E6D5001868A9 /* emeraldbay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emeraldbay.png; sourceTree = "<group>"; };
+		91E55C2F1B27E821001868A9 /* IMG_8091.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8091.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				91E55C0F1B27E580001868A9 /* ViewController.swift */,
 				91E55C111B27E580001868A9 /* Main.storyboard */,
 				91E55C141B27E580001868A9 /* Images.xcassets */,
+				91E55C2F1B27E821001868A9 /* IMG_8091.JPG */,
+				91E55C2D1B27E6D5001868A9 /* emeraldbay.png */,
 				91E55C161B27E580001868A9 /* LaunchScreen.xib */,
 				91E55C0B1B27E580001868A9 /* Supporting Files */,
 			);
@@ -161,6 +167,7 @@
 				TargetAttributes = {
 					91E55C071B27E580001868A9 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = C383436ARC;
 					};
 					91E55C1C1B27E580001868A9 = {
 						CreatedOnToolsVersion = 6.2;
@@ -193,8 +200,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				91E55C131B27E580001868A9 /* Main.storyboard in Resources */,
+				91E55C301B27E821001868A9 /* IMG_8091.JPG in Resources */,
 				91E55C181B27E580001868A9 /* LaunchScreen.xib in Resources */,
 				91E55C151B27E580001868A9 /* Images.xcassets in Resources */,
+				91E55C2E1B27E6D5001868A9 /* emeraldbay.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PostCard4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PostCard4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
